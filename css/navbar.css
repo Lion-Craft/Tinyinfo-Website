@@ -1,0 +1,43 @@
+ul  {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Helvetica, Verdana, sans-serif;
+    border: 2px double #0e0e0e;
+    border-radius: 5px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    top: 8px;
+    position: sticky;
+    position: -webkit-sticky;
+}
+a   {
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+    float: left;
+    display: block;
+    padding: 10px;
+    background-color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px;
+    float: left;
+    display: block;
+    padding: 10px;
+    background-color: lightslategray;
+}
+li  {
+    display: inline;
+    float: left;
+}
+img {
+    float: left;
+    background-color: black;
+    width: auto;
+    height: 41px;
+    padding-right: 10px;
+}
