@@ -1,4 +1,4 @@
-ul  {
+ul.navbar  {
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Helvetica, Verdana, sans-serif;
     border: 2px double #0e0e0e;
@@ -12,7 +12,7 @@ ul  {
     position: sticky;
     position: -webkit-sticky;
 }
-a   {
+a.navbar   {
     text-decoration: none;
     text-align: center;
     color: aliceblue;
@@ -21,7 +21,7 @@ a   {
     padding: 10px;
     background-color: black;
 }
-a:hover {
+a.navbar:hover {
     text-decoration: none;
     color: aliceblue;
     border-radius: 5px;
@@ -30,11 +30,11 @@ a:hover {
     padding: 10px;
     background-color: lightslategray;
 }
-li  {
+li.navbar  {
     display: inline;
     float: left;
 }
-img {
+img.navbar {
     float: left;
     background-color: black;
     width: auto;
