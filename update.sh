@@ -1,3 +1,3 @@
 echo Updating website...
-sudo cp * ../
+sudo cp -r * ../
 echo Website updated successfully.
